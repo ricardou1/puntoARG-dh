@@ -1,0 +1,34 @@
+.registro2{
+
+
+    background: #0064ff30;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1em;
+    border-radius: 3%;
+    padding: 30px;
+    margin-bottom: 20vh;
+      margin-top: 30vh;
+      text-align: center;
+}
+
+.registro{
+  text-align:center;
+}
+
+.login{
+  font-size:2rem;
+}
+
+.registro2 input{
+    margin: 0 auto;
+    width: 80%;
+    height: 40px;
+    border-radius: 3%;
+    border: none;
+    padding: 10px;
+  }
+
+  .registro2 label{
+    font-size:1.5rem;
+  }

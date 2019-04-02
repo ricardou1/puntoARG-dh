@@ -12,20 +12,22 @@
 	<title>PuntoARG - Paquetes De Viajes En La Argentina</title>
 </head>
 <body>
+
 	<header class="nav-bar">
-		<a href="home.html"><h1 class="big-title">puntoARG</h1></a>
+		<a href="index.html"><h1 class="big-title">puntoARG</h1></a>
 
     <div class="menu-big">
       <ul class="menu2">
         <li><a href="#">Promociones</a></li>
-        <li><a href="login2.html">Login</a></li>
-        <li><a href="registro2.html">Registro</a></li>
+        <li><a href="#">Destacados</a></li>
+        <li><a href="#">Paquetes</a></li>
       </ul>
     </div>
 
 		<div class="menu-small">
 			<ul class="menu1">
 				<li><a href="#"><i class="fas fa-search"></i></a></li>
+				<li> <a href="login2.html"><i class="fas fa-user"></i></a> </li>
 				<li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
 				<li><a href="#"><i class="fas fa-bars"></a></i></li>
 			</ul>
@@ -36,27 +38,52 @@
 	<div class="registro2">
 
 	<form class="login" action="resultado.html" method="POST">
-		<h2>Ingresar</h2>
+		<h2>MI CUENTA</h2>
+	<div class="contenedor">
 
+
+	<div class="datosUsuario">
+		<p>
+			<input id= "email" type="email" name="email" value="" placeholder="Email" required>
+			<i class="fa fa-envelope fa-lg fa-fw" aria-hidden="true" required></i>
+
+		</p>
+</div>
+<div class="datosUsuario">
+		<p>
+
+			<input id= "password" type="password" name="password" value="" placeholder="Contraseña"required>
+			<i class="fas fa-key" aria-hidden="true" required></i>
+		</p>
+		</div>
+			</div>
+		<div class="recuperoContraseña">
+		<p> <a href="#">Olvidé mi contraseña</a>  </p>
+		</div>
+
+
+	<div class="captcha">
+			<iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Lf8DV4UAAAAAASCK2DF67REViA95WPoXf-1vZsH&amp;co=aHR0cHM6Ly93d3cuZGVzcGVnYXIuY29tLmFyOjQ0Mw..&amp;hl=es-419&amp;v=v1552285980763&amp;size=normal&amp;cb=c0u1s2z1hzau" width="304" height="78" role="presentation" name="a-oy8120dsib61" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+
+	</div>
+
+	<div class="boton">
+
+	<div id="boton"class="botones">
 	<p>
-		<label for="email">Email</label>
-		<input id= "email" type="email" name="email" value="" placeholder="ingrese su email" required>
-	</p>
-	<p>
-		<label for="password">Contraseña</label>
-		<input id= "password" type="password" name="password" value="" placeholder="ingrese su contraseña"required>
-	</p>
-
-
-	<div class="botones">
-
-
-	<p>
-		<label for="ingresar"></label>
-		<input id= "submit" type="submit" name="ingresar" value="Ingresar" required>
+		<label for="Ingresar"></label>
+		<input  id= "submit" type="submit" name="enviar" value="Ingresar" required>
 	</p>
 
 		</div>
+			</div>
+			<div class="crearCuenta">
+				<div class="">
+					<p>¿No tienes una cuenta?</p>
+					<p> <a href="registro2.html">CREAR CUENTA</a> </p>
+				</div>
+
+			</div>
 	</form>
 			</div>
 

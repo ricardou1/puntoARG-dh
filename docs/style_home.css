@@ -1,0 +1,279 @@
+
+/*RESETEOS*/
+*{
+  box-sizing: border-box;
+
+}
+ul,ol{
+  padding: 0;
+}
+
+li{
+  list-style-type: none;
+
+
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+/* MAIN*/
+body{
+  background-image: url(../img/fondo.jpg);
+  background-position: left top;
+
+  margin: 0 auto;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* Articulos Home */
+
+.nav-bar{
+  background: #0D47A1;
+  position: fixed;
+  width: 100%;
+  top:0;
+  text-align:center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 100;
+}
+
+
+.menu-small{
+  display:inline-flex;
+}
+
+.menu-small ul li{
+  display:inline-flex;
+}
+
+.menu-small i{
+  color: white;
+  padding:10px;
+  font-size: 1.5rem;
+}
+
+.menu-big{
+  display:none;
+}
+
+.menu-big ul li{
+  display:inline-flex;
+}
+
+.menu-big a{
+  color: white;
+  padding:10px;
+  font-size: 1.5rem;
+}
+
+.big-title{
+  font-family: 'Baloo Chettan';
+  color: white;
+  padding-left: 10px;
+  display:inline-flex;
+}
+
+.principales{
+  text-align:center;
+  margin-top: 10vh;
+}
+
+.articulo {
+  width:80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.img-principal{
+  width:100%;
+}
+
+.titulo-art{
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+}
+
+.titulo-art img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.descripcion-art{
+  text-align: left;
+  font-size: 24px;
+  font-size: 1.4rem;
+}
+
+.main-search{
+  background: #ffffffdb;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 32px;
+  border-radius: 3%;
+  margin-top: 20vh;
+  padding: 30px;
+}
+
+.drop {
+  font-size: 1.4rem;
+  border: none;
+}
+
+.sub-form-section{
+  display:inline-flex;
+  justify-content: space-around;
+}
+
+.hero-form-element{
+  display:flex;
+}
+
+.big-search{
+  text-align: center;
+}
+
+.hero{
+  position: absolute;
+  top: 0;
+  z-index: -100;
+  display: block;
+}
+
+.hero img{
+  width:100vw;
+  height:80vh;
+  object-fit: cover;
+}
+
+.main-form-section input{
+  margin: 0 auto;
+  width: 80%;
+  height: 40px;
+  border-radius: 3%;
+  border: none;
+  padding: 10px;
+}
+
+.main-form-section label{
+  font-size:1.5rem;
+}
+
+.footer{
+  background-color:#0d47a1;
+  width:100vw;
+  color:white;
+  text-align:center;
+  padding: 10px;
+  font-size: 1.3rem;
+
+}
+
+.mas-info a{
+  color:white;
+}
+
+.social li{
+  display:inline-flex;
+}
+
+.social i{
+  color: white;
+  padding: 10px;
+  font-size: 1.5rem;
+}
+
+.destacado{
+  width: 50%;
+  margin: 0 auto;
+  display:inline-block;
+}
+
+.destacados {
+  text-align:center;
+}
+
+.destacado a{
+  color:white;
+}
+
+.consulta-desta{
+  margin-bottom: 5px;
+}
+
+.destacado img{
+  width:100%;
+}
+
+.destacados ul li{
+  display: inline-flex;
+}
+
+.precio-desta{
+  font-weight: bold;
+  background: blue;
+  padding: 5px;
+}
+
+.consulta{
+  color:white;
+  background: black;
+  padding: 5px;
+}
+
+.titulo-desta{
+  background-color: white;
+  padding: 10px;
+  width: 80vw;
+  display: inline-block;
+}
+
+
+@media (min-width:768px) {
+
+  .articulo{
+    width:40%;
+    padding:10px;
+  }
+
+  .menu-big{
+    display:none;
+  }
+
+  .titulo-desta{
+    font-size: 2rem;
+  }
+
+  .destacado{
+    width:25%;
+    width: 25%;
+    margin: 10px;
+  }
+
+}
+  @media (min-width:1024px) {
+
+    .footer{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .fa-bars{
+      display:none;
+    }
+
+    .menu-big{
+      display:inline-flex;
+    }
+
+  }
+
+
+}

@@ -1,4 +1,4 @@
-# puntoARG - Paquetes de Viajes en La Argentina
+# puntoARG - Excurisones y actividades por toda Argentina
 Proyecto Integrador Full Stack Digital House 2019
 
 Objetivo
@@ -15,6 +15,6 @@ Cada equipo debe enviar a los profesores antes de la fecha de entrega los links 
 
 Concepto
 PuntoARG  es un sitio de e-commerce que ofrece un servicio de reserva de excursiones y actividades turísticas dentro de la Argentina. Están catalogadas por ubicación: región del país, provincia o por lugar destino, y por tipo de actividad: ecoturismo, montañismo, cruceros, turismo histórico-cultural, parques nacionales, rutas gastronómicas,  entre otros.
-Dentro del sitio podemos registrarnos  y como usuarios realizar reservas de excursiones o actividades que podemos buscar según nuestro interés o lugar de destino. También podemos filtrar cualquier búsqueda  según nuestro presupuesto.
-Cada excursión y actividad pueden ser puntuadas  y  reseñadas por los mismos usuarios. Estas reseñas le dan  a los potenciales clientes una herramienta  para elegir la actividad que más se ajusta a su interés.
+Dentro del sitio podemos registrarnos  y como usuarios realizar reservas todas las excursiones o actividades querramos segun nuestro interés o destino. También podemos filtrar cualquier búsqueda  según nuestro presupuesto.
+Cada excursión y/o actividad pueden ser puntuadas  y  reseñadas por los mismos usuarios. 
 
